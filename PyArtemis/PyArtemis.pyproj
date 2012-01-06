@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{c60e2753-6e52-408a-9628-f3432bb0f31d}</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>EntityWorld.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>PyArtemis</Name>
+    <RootNamespace>PyArtemis</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="ArtemisPool.py" />
+    <Compile Include="Component.py" />
+    <Compile Include="ComponentMapper.py" />
+    <Compile Include="ComponentType.py" />
+    <Compile Include="ComponentTypeManager.py" />
+    <Compile Include="DelayedEntityProcessingSystem.py" />
+    <Compile Include="DelayedEntitySystem.py" />
+    <Compile Include="Entity.py" />
+    <Compile Include="EntityManager.py" />
+    <Compile Include="EntityProcessingSystem.py" />
+    <Compile Include="EntitySystem.py" />
+    <Compile Include="EntityWorld.py" />
+    <Compile Include="GroupManager.py" />
+    <Compile Include="GroupSystem.py" />
+    <Compile Include="IntervalEntityProcessingSystem.py" />
+    <Compile Include="IntervalEntitySystem.py" />
+    <Compile Include="IntervalGroupSystem.py" />
+    <Compile Include="IntervalTagSystem.py" />
+    <Compile Include="Manager.py" />
+    <Compile Include="SystemBitManager.py" />
+    <Compile Include="SystemManager.py" />
+    <Compile Include="TagManager.py" />
+    <Compile Include="TagSystem.py" />
+    <Compile Include="Timer.py" />
+    <Compile Include="Utils.py" />
+    <Compile Include="__init__.py" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+</Project>

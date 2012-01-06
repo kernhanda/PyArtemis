@@ -1,0 +1,2 @@
+class ArtemisPool(object):
+    pass

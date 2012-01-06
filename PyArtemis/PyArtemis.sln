@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PyArtemis", "PyArtemis.pyproj", "{C60E2753-6E52-408A-9628-F3432BB0F31D}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PyArtemisTest", "..\PyArtemisTest\PyArtemisTest.pyproj", "{CE624BD6-EEDE-4E29-B6CD-357DDF0EC452}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C60E2753-6E52-408A-9628-F3432BB0F31D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C60E2753-6E52-408A-9628-F3432BB0F31D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE624BD6-EEDE-4E29-B6CD-357DDF0EC452}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE624BD6-EEDE-4E29-B6CD-357DDF0EC452}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
